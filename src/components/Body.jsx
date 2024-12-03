@@ -16,7 +16,7 @@ const Body = () => {
         handleAdvice();
     }, []);
     //Two parameters inside the useeffect, first is a function and second one is the dependencyarray
-      return (
+      return (                            
     <div className='h-screen bg-slate-800 flex justify-center items-center'>
       <div className='bg-slate-600 h-[200px] w-[420px] rounded-lg p-8'>
         <p className='flex justify-center text-xl'>Adivice #{advice.id}</p>
